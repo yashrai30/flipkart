@@ -1,0 +1,20 @@
+[INFO ] 2024-05-20 15:49:03.513 [main] Flipkart - URL opened
+[INFO ] 2024-05-20 15:49:04.863 [main] Flipkart - Web page opened
+[INFO ] 2024-05-20 15:49:11.934 [main] Flipkart - URL opened
+[INFO ] 2024-05-20 15:49:17.617 [main] Flipkart - text set
+[INFO ] 2024-05-20 15:49:17.660 [main] Flipkart - clicked submit
+[ERROR] 2024-05-20 15:49:37.925 [main] Flipkart - Verify button is not visible. Screenshot taken.
+[INFO ] 2024-05-20 15:49:37.994 [main] Flipkart - Verify button is visible
+[INFO ] 2024-05-20 15:49:38.137 [main] Flipkart - clear text
+[INFO ] 2024-05-20 15:49:38.189 [main] Flipkart - set invalid text
+[INFO ] 2024-05-20 15:49:38.210 [main] Flipkart - clicked submit
+[INFO ] 2024-05-20 15:49:38.253 [main] Flipkart - SignUp button is visible
+[INFO ] 2024-05-20 15:49:43.862 [main] Flipkart - URL opened
+[INFO ] 2024-05-20 15:49:46.723 [main] Flipkart - Actual URL: https://www.flipkart.com/account/login?signup=true
+[INFO ] 2024-05-20 15:49:52.769 [main] Flipkart - URL opened
+[INFO ] 2024-05-20 15:50:00.575 [main] Flipkart - URL opened
+[INFO ] 2024-05-20 15:50:06.578 [main] Flipkart - Expected page result
+[INFO ] 2024-05-20 15:50:16.259 [main] Flipkart - URL opened
+[INFO ] 2024-05-20 15:50:19.545 [main] Flipkart - Filtered by popularity
+[INFO ] 2024-05-20 15:50:20.357 [main] Flipkart - Filtered by Price -- High to Low
+[INFO ] 2024-05-20 15:50:21.428 [main] Flipkart - Filtered by Price -- Low to High

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-20T15:48:54 IST" name="Suite" finished-at="2024-05-20T15:50:22 IST" duration-ms="87720">
+    <groups>
+      <group name="regression">
+        <method signature="TC1_Launch.LaunchWebandVerfiy()[pri:1, instance:testcases.TC1_Launch@9d5509a]" name="LaunchWebandVerfiy" class="testcases.TC1_Launch"/>
+        <method signature="TC2_Login.invalidloginProcess()[pri:3, instance:testcases.TC2_Login@4116aac9]" name="invalidloginProcess" class="testcases.TC2_Login"/>
+        <method signature="TC5_SearchProduct.searchProduct()[pri:5, instance:testcases.TC5_SearchProduct@74e52ef6]" name="searchProduct" class="testcases.TC5_SearchProduct"/>
+        <method signature="TC6_ValidateResultPage.searchProduct()[pri:6, instance:testcases.TC6_ValidateResultPage@6ed3ccb2]" name="searchProduct" class="testcases.TC6_ValidateResultPage"/>
+        <method signature="TC7_FilterResult.filterResult()[pri:7, instance:testcases.TC7_FilterResult@1a677343]" name="filterResult" class="testcases.TC7_FilterResult"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC1_Launch.LaunchWebandVerfiy()[pri:1, instance:testcases.TC1_Launch@9d5509a]" name="LaunchWebandVerfiy" class="testcases.TC1_Launch"/>
+        <method signature="TC2_Login.validloginProcess()[pri:2, instance:testcases.TC2_Login@4116aac9]" name="validloginProcess" class="testcases.TC2_Login"/>
+        <method signature="TC4_RegisterUser.loginProcess()[pri:4, instance:testcases.TC4_RegisterUser@62ddbd7e]" name="loginProcess" class="testcases.TC4_RegisterUser"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2024-05-20T15:48:54 IST" name="TestSuite" finished-at="2024-05-20T15:50:22 IST" duration-ms="87720">
+      <class name="testcases.TC1_Launch">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.TC1_Launch@9d5509a]" started-at="2024-05-20T15:48:54 IST" name="setup" finished-at="2024-05-20T15:49:03 IST" duration-ms="8862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LaunchWebandVerfiy()[pri:1, instance:testcases.TC1_Launch@9d5509a]" started-at="2024-05-20T15:49:03 IST" name="LaunchWebandVerfiy" finished-at="2024-05-20T15:49:04 IST" duration-ms="1330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchWebandVerfiy -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC1_Launch@9d5509a]" started-at="2024-05-20T15:49:04 IST" name="tearDown" finished-at="2024-05-20T15:49:05 IST" duration-ms="500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC1_Launch -->
+      <class name="testcases.TC7_FilterResult">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.TC7_FilterResult@1a677343]" started-at="2024-05-20T15:50:06 IST" name="setup" finished-at="2024-05-20T15:50:16 IST" duration-ms="9288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="filterResult()[pri:7, instance:testcases.TC7_FilterResult@1a677343]" started-at="2024-05-20T15:50:16 IST" name="filterResult" finished-at="2024-05-20T15:50:21 IST" duration-ms="5283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC7_FilterResult@1a677343]" started-at="2024-05-20T15:50:21 IST" name="tearDown" finished-at="2024-05-20T15:50:22 IST" duration-ms="508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC7_FilterResult -->
+      <class name="testcases.TC5_SearchProduct">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.TC5_SearchProduct@74e52ef6]" started-at="2024-05-20T15:49:47 IST" name="setup" finished-at="2024-05-20T15:49:52 IST" duration-ms="5395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchProduct()[pri:5, instance:testcases.TC5_SearchProduct@74e52ef6]" started-at="2024-05-20T15:49:52 IST" name="searchProduct" finished-at="2024-05-20T15:49:55 IST" duration-ms="2915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC5_SearchProduct@74e52ef6]" started-at="2024-05-20T15:49:55 IST" name="tearDown" finished-at="2024-05-20T15:49:56 IST" duration-ms="467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC5_SearchProduct -->
+      <class name="testcases.TC4_RegisterUser">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.TC4_RegisterUser@62ddbd7e]" started-at="2024-05-20T15:49:38 IST" name="setup" finished-at="2024-05-20T15:49:43 IST" duration-ms="4980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginProcess()[pri:4, instance:testcases.TC4_RegisterUser@62ddbd7e]" started-at="2024-05-20T15:49:43 IST" name="loginProcess" finished-at="2024-05-20T15:49:46 IST" duration-ms="2860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginProcess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC4_RegisterUser@62ddbd7e]" started-at="2024-05-20T15:49:46 IST" name="tearDown" finished-at="2024-05-20T15:49:47 IST" duration-ms="650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC4_RegisterUser -->
+      <class name="testcases.TC2_Login">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.TC2_Login@4116aac9]" started-at="2024-05-20T15:49:05 IST" name="setup" finished-at="2024-05-20T15:49:11 IST" duration-ms="6548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validloginProcess()[pri:2, instance:testcases.TC2_Login@4116aac9]" started-at="2024-05-20T15:49:11 IST" name="validloginProcess" finished-at="2024-05-20T15:49:37 IST" duration-ms="26061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validloginProcess -->
+        <test-method signature="invalidloginProcess()[pri:3, instance:testcases.TC2_Login@4116aac9]" started-at="2024-05-20T15:49:37 IST" name="invalidloginProcess" finished-at="2024-05-20T15:49:38 IST" duration-ms="403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidloginProcess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC2_Login@4116aac9]" started-at="2024-05-20T15:49:38 IST" name="tearDown" finished-at="2024-05-20T15:49:38 IST" duration-ms="479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC2_Login -->
+      <class name="testcases.TC6_ValidateResultPage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.TC6_ValidateResultPage@6ed3ccb2]" started-at="2024-05-20T15:49:56 IST" name="setup" finished-at="2024-05-20T15:50:00 IST" duration-ms="4420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchProduct()[pri:6, instance:testcases.TC6_ValidateResultPage@6ed3ccb2]" started-at="2024-05-20T15:50:00 IST" name="searchProduct" finished-at="2024-05-20T15:50:06 IST" duration-ms="6002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC6_ValidateResultPage@6ed3ccb2]" started-at="2024-05-20T15:50:06 IST" name="tearDown" finished-at="2024-05-20T15:50:06 IST" duration-ms="392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC6_ValidateResultPage -->
+    </test> <!-- TestSuite -->
+  </suite> <!-- Suite -->
+</testng-results>
